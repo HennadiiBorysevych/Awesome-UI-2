@@ -1,0 +1,10 @@
+@import './base/common.scss';
+
+@import './utils/mixins';
+@import './utils/_visually-hidden';
+
+@import './components/container.scss';
+@import './components/btn.scss';
+
+@import './layout/header';
+@import './layout/main-section';
