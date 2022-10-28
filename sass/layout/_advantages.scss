@@ -1,0 +1,45 @@
+.advantages-wraper {
+    display: flex;
+}
+
+.advantages--part {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+        font-size: 24px;
+        line-height: 1.33;
+        text-transform: uppercase;
+    
+        color: var(--title-color);
+        margin-bottom: 8px;
+}
+
+.subtitle {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 1.33;
+        text-transform: uppercase;
+    
+        color: var(--subtitle-color);
+        margin-bottom: 40px;
+}
+.advantages-text{
+    max-width: 460px;
+        line-height: 1.5;
+        color: #4F4F4F;
+        margin-bottom: 40px;
+}
+.btn {}
+
+.advantages-list {}
+
+.advantages__item {}
+
+.advantages__pic {}
+
+.advantages-list__title {}
+
+.advantages-list__text {}
