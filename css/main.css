@@ -96,9 +96,38 @@ p {
   padding: 24px 64px 24px 24px;
 }
 
+.title {
+  position: relative;
+  font-size: 24px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  color: var(--title-color);
+  margin-bottom: 8px;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: -136px;
+  width: 600px;
+  height: 160px;
+  background-image: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  color: var(--subtitle-color);
+  margin-bottom: 40px;
+}
+
 .page-header {
   padding: 32px 0 32px 0;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .container--flex {
@@ -149,6 +178,7 @@ p {
 .get-started-wraper {
   display: flex;
   gap: 168px;
+  padding-bottom: 103px;
 }
 
 .get-started--part {
@@ -193,28 +223,14 @@ p {
 
 .advantages-wraper {
   display: flex;
+  gap: 72px;
+  padding-bottom: 104px;
 }
 
 .advantages--part {
+  max-width: 460px;
   display: flex;
   flex-direction: column;
-}
-
-.title {
-  font-size: 24px;
-  line-height: 1.33;
-  text-transform: uppercase;
-  color: var(--title-color);
-  margin-bottom: 8px;
-}
-
-.subtitle {
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 1.33;
-  text-transform: uppercase;
-  color: var(--subtitle-color);
-  margin-bottom: 40px;
 }
 
 .advantages-text {
@@ -222,4 +238,41 @@ p {
   line-height: 1.5;
   color: #4F4F4F;
   margin-bottom: 40px;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 8;
+  gap: 32px;
+}
+
+.advantages__item {
+  max-width: 288px;
+  padding: 32px 40px;
+}
+
+.advantages__pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.advantages-list__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.advantages-list__text {
+  font-size: 14px;
+  line-height: 1.57;
+  color: var(--primary-text-color);
 }/*# sourceMappingURL=main.css.map */
