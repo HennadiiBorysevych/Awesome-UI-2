@@ -19,14 +19,13 @@
     border-radius: 8px;
     z-index: 10;
 }
-.features-list__item:last-child::after{
+.features-list::after{
     content: '';
     position: absolute;
     bottom: -32px;
     right: -136px;
     width: 600px;
     height: 160px;
-    overflow: hidden;
     background-image:linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
 }
 .features-list__pic {
