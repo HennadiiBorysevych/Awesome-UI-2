@@ -7,15 +7,7 @@
     color: var(--title-color);
     margin-bottom: 8px;
 }
-.title::before{
-    content: '';
-    position: absolute;
-    top: -16px;
-    left: -136px;
-    width: 600px;
-    height: 160px;
-    background-image: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
-}
+
 .subtitle {
     font-weight: 500;
     font-size: 36px;
